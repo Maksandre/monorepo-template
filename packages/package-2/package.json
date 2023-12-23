@@ -1,0 +1,11 @@
+{
+  "name": "package-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "echo start package-2"
+  },
+  "dependencies": {
+  }
+}

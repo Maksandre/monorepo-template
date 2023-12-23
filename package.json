@@ -1,0 +1,27 @@
+{
+  "name": "getpals",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": "true",
+  "license": "MIT",
+  "scripts": {
+    "run:bot": "yarn workspace package-1 run start",
+    "format": "prettier --write \"packages/**/*.{js,ts,json}\"",
+    "lint": "eslint 'packages/**/*.{js,ts,jsx,tsx}' --fix",
+    "prepare": "husky install"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^15.2.0",
+    "prettier": "^3.1.1",
+    "typescript": "^5.3.3"
+  }
+}
