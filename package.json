@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "private": "true",
-  "license": "MIT",
   "scripts": {
-    "run:bot": "yarn workspace package-1 run start",
+    "run:bot": "yarn workspace bot run start",
     "format": "prettier --write \"packages/**/*.{js,ts,json}\"",
     "lint": "eslint 'packages/**/*.{js,ts,jsx,tsx}' --fix",
     "prepare": "husky install"
